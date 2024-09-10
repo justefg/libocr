@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/netip"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/networking/ragedisco/autodetect"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/networking/ragedisco/autodetect"
+	ragetypes "github.com/justefg/libocr/ragep2p/types"
 )
 
 type autodetector func() ([]netip.Addr, []netip.Addr, error)

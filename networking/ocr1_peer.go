@@ -1,9 +1,9 @@
 package networking
 
 import (
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/configdigesthelper"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/configdigesthelper"
+	ocr1types "github.com/justefg/libocr/offchainreporting/types"
 )
 
 type ocr1BinaryNetworkEndpointFactory struct {

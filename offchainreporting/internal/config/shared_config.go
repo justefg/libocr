@@ -8,8 +8,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/offchainreporting/types"
 	"golang.org/x/crypto/sha3"
 )
 

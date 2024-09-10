@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/ocr3/minheap"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/ocr3/minheap"
+	"github.com/justefg/libocr/subprocesses"
 )
 
 type itemWithDeadline[T any] struct {

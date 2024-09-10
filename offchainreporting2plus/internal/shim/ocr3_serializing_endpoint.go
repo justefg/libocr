@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/ocr3/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/ocr3/serialization"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3types"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/loghelper"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/ocr3/protocol"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/ocr3/serialization"
+	"github.com/justefg/libocr/offchainreporting2plus/ocr3types"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/subprocesses"
 )
 
 type OCR3SerializingEndpoint[RI any] struct {

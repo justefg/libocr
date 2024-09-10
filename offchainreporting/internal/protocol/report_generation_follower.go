@@ -8,10 +8,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/signature"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/justefg/libocr/offchainreporting/internal/signature"
+	"github.com/justefg/libocr/offchainreporting/types"
 )
 
 func (repgen *reportGenerationState) followerReportContext() ReportContext {

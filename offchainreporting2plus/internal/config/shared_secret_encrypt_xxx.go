@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
 	"golang.org/x/crypto/curve25519"
 )
 

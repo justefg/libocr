@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/ragep2p"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/loghelper"
+	"github.com/justefg/libocr/ragep2p"
+	ragetypes "github.com/justefg/libocr/ragep2p/types"
 )
 
 type LatencyMetricsService interface {

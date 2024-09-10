@@ -5,11 +5,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	ocr2types "github.com/smartcontractkit/libocr/offchainreporting2plus/types"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/justefg/libocr/commontypes"
+	ocr2types "github.com/justefg/libocr/offchainreporting2plus/types"
+	ragetypes "github.com/justefg/libocr/ragep2p/types"
 
-	"github.com/smartcontractkit/libocr/internal/loghelper"
+	"github.com/justefg/libocr/internal/loghelper"
 )
 
 var (

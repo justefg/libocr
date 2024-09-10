@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/justefg/libocr/offchainreporting/types"
 	"go.uber.org/multierr"
 )
 

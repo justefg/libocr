@@ -8,12 +8,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/persist"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/loghelper"
+	"github.com/justefg/libocr/offchainreporting/internal/config"
+	"github.com/justefg/libocr/offchainreporting/internal/protocol/persist"
+	"github.com/justefg/libocr/offchainreporting/types"
+	"github.com/justefg/libocr/subprocesses"
 	"golang.org/x/crypto/sha3"
 )
 

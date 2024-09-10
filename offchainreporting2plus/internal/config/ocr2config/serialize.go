@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/config"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
 	"golang.org/x/crypto/curve25519"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/runtime/protoimpl"

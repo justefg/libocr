@@ -2,7 +2,7 @@ package loggers
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/justefg/libocr/commontypes"
 )
 
 var _ commontypes.Logger = LogrusLogger{}

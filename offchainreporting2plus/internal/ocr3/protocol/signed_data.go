@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/byzquorum"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3types"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/byzquorum"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/config"
+	"github.com/justefg/libocr/offchainreporting2plus/ocr3types"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
 )
 
 // Returns a byte slice whose first four bytes are the string "ocr3" and the rest
