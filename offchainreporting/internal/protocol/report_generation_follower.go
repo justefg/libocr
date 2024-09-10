@@ -270,6 +270,7 @@ func (repgen *reportGenerationState) messageFinal(
 	}
 	repgen.followerState.sentEcho = &msg.Report
 	repgen.netSender.Broadcast(MessageFinalEcho{MessageFinal: msg})
+	repgen.logger.Debug("ocr final report", commontypes.LogFields{"msg": msg})
 }
 
 // messageFinalEcho is called when the local oracle process receives a

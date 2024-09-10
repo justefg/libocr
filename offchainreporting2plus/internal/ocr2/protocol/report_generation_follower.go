@@ -363,7 +363,7 @@ func (repgen *reportGenerationState) messageFinal(
 			})
 		return
 	}
-
+	repgen.logger.Debug("ocr2 final report", commontypes.LogFields{"msg": msg})
 	select {
 	case repgen.chReportGenerationToReportFinalization <- EventFinal{msg}:
 	case <-repgen.ctx.Done():
