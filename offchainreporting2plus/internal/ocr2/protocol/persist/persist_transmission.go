@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/loghelper"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
 )
 
 type TransmissionDBUpdate struct {

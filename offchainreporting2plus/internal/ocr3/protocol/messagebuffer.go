@@ -1,6 +1,6 @@
 package protocol
 
-import "github.com/smartcontractkit/libocr/offchainreporting2plus/internal/ocr3/protocol/ringbuffer"
+import "github.com/justefg/libocr/offchainreporting2plus/internal/ocr3/protocol/ringbuffer"
 
 // We have this wrapper to deal with what appears to be a bug in the Go compiler
 // that prevents us from using ringbuffer.RingBuffer in the outcome generation

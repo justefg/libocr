@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/justefg/libocr/commontypes"
 )
 
 type Limiter interface {

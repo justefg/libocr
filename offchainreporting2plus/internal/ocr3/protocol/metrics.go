@@ -2,8 +2,8 @@ package protocol
 
 import (
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/metricshelper"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/metricshelper"
 )
 
 type pacemakerMetrics struct {

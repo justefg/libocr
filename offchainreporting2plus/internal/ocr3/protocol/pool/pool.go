@@ -3,7 +3,7 @@ package pool
 import (
 	"math"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/justefg/libocr/commontypes"
 )
 
 type Pool[T any] struct {

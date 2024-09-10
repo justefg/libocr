@@ -5,13 +5,13 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/config/ocr2config"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/ocr2/protocol/persist"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
-	"github.com/smartcontractkit/libocr/permutation"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/loghelper"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/config/ocr2config"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/ocr2/protocol/persist"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/permutation"
+	"github.com/justefg/libocr/subprocesses"
 	"golang.org/x/crypto/sha3"
 )
 

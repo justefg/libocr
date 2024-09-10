@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/internal/byzquorum"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/internal/byzquorum"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/config"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
 )
 
 // PublicConfig is the configuration disseminated through the smart contract

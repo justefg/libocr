@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/loghelper"
 )
 
 const ReportingPluginTimeoutWarningGracePeriod = 100 * time.Millisecond

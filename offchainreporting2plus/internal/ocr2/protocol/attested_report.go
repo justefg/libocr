@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/config"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
 )
 
 type AttributedObservation struct {

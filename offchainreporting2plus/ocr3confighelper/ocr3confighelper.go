@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/confighelper"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/internal/config/ocr3config"
-	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
+	"github.com/justefg/libocr/offchainreporting2plus/confighelper"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/config"
+	"github.com/justefg/libocr/offchainreporting2plus/internal/config/ocr3config"
+	"github.com/justefg/libocr/offchainreporting2plus/types"
 )
 
 // PublicConfig is identical to the internal type in package config.

@@ -9,13 +9,13 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/permutation"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/justefg/libocr/commontypes"
+	"github.com/justefg/libocr/internal/loghelper"
+	"github.com/justefg/libocr/offchainreporting/internal/config"
+	"github.com/justefg/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/justefg/libocr/offchainreporting/types"
+	"github.com/justefg/libocr/permutation"
+	"github.com/justefg/libocr/subprocesses"
 )
 
 // TransmissionProtocol tracks the local oracle process's role in the transmission of a
